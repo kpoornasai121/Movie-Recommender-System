@@ -32,26 +32,26 @@ These get mashed together and processed to make the recommendation engine hum.
 
 Want to try it out on your own machine? Here’s how to get it running:
 
-1.**Grab the Code**:
+1. **Grab the Code**:
    ```bash
-   git clone https://github.com/kpoornasai121/Movie-Recommender-System.git
-   cd movie-recommender-system
-```
-2.**Get the Datasets**:
+      git clone https://github.com/kpoornasai121/Movie-Recommender-System.git
+      cd movie-recommender-system
+   ```
+2. **Get the Datasets**:
   - Download tmdb_5000_movies.csv and tmdb_5000_credits.csv from Kaggle.
   - Pop them into a Dataset folder in the project.
 
-3.**Snag an OMDB API Key**:
+3. **Snag an OMDB API Key**:
   - Head to OMDB API and grab a free key.
   - Open app.py and swap out the OMDB_API_KEY with yours.
 
 
-##How to Use It
+## How to Use It
 
 **Fire Up the App**:
-   ```bash
-   streamlit run app.py
-   ```
+      ```bash
+      streamlit run app.py
+      ```
 It’ll open in your browser at http://localhost:8501.
 
 **Pick Your Movie**:
@@ -62,3 +62,20 @@ It’ll open in your browser at http://localhost:8501.
 - You’ll get a neat grid of movie posters and titles.
 - Scroll through and find your next watch!
 
+## Stuff You’ll Need
+
+- Python 3.8 or higher
+- pandas
+- numpy
+- scikit-learn
+- nltk
+- streamlit
+- requests
+
+**Intall them all with**:
+   ```bash
+   pip install pandas numpy scikit-learn nltk streamlit requests
+   ```
+
+## License
+This project is under the MIT License—feel free to use it, tweak it, or share it. Check the  file for the nitty-gritty.
