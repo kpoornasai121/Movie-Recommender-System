@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.0%2B-red)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 Hey there! Welcome to my Movie Recommender System, a fun project I built to help you discover movies you’ll love. Pick a movie you enjoy, and this app will suggest similar ones, complete with posters to spark your interest. It’s powered by machine learning and wrapped in a slick Streamlit interface. I’m Poornasai, and I had a blast putting this together—hope you enjoy it!
 
@@ -76,6 +75,3 @@ It’ll open in your browser at http://localhost:8501.
    ```bash
    pip install pandas numpy scikit-learn nltk streamlit requests
    ```
-
-## License
-This project is under the MIT License—feel free to use it, tweak it, or share it. Check the  file for the nitty-gritty.
